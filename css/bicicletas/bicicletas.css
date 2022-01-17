@@ -1,5 +1,9 @@
 .bicicletas-bg:nth-child(3) {
-  background-image: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+  background-image: linear-gradient(
+    to right,
+    var(--cor-0) 30%,
+    var(--cor-11) 0%
+  );
 }
 
 .bicicletas {
@@ -9,6 +13,7 @@
   align-items: center;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 40px;
 }
 
 .bicicletas-imagem {
@@ -38,7 +43,8 @@
   align-content: start;
 }
 
-.bicicletas-conteudo h2, p {
+.bicicletas-conteudo h2,
+p {
   grid-column: 1/-1;
 }
 
